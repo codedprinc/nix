@@ -96,6 +96,7 @@
     border: 1px solid black;
     /* width: 1.4rem;*/
     height: 2.8rem;
+    
   }
   nav .mobile-menu span {
     /* padding: .1em;
@@ -104,6 +105,17 @@
     font-size: 1.6rem;
   }
 
+  #header-links{
+    a {
+      text-decoration: none;
+      font-size: 1.4rem;
+      color: white;
+    }
+    a.active{
+      text-decoration: underline;
+    }
+    
+  }
   /* Main body */
 
   main {
